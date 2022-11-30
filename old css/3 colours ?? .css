@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+
+   .container{
+    width: 1500PX;
+    height: 270PX;
+    background: linear-gradient(
+      to bottom,
+      rgb(53, 53, 53) 0%,
+      rgb(131, 131, 131) 50%,
+      rgb(124, 124, 124) 50%,
+      rgb(215, 215, 215) 100%
+    );
+  }
+
+
+
+
+  .container{
+    width: 1500px;
+    height: 300px;
+    background: linear-gradient(
+      to top,
+      rgb(0, 225, 255) 0%,
+      rgb(0, 225, 255) 50%,
+      rgb(0, 225, 255) 50%,
+      rgb(0, 225, 255) 100%
+    );
+  } 
+  
+
+ body{
+
+
+background-color: brown;
+
+ }
