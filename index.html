@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="wdith=device-wdith, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css"
+		<meta http-quiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" href="old css/style copy.css"
+		<!--swiper bunde-->
+		<link rel="stylesheet" href="old css/swiper-bundle.min.css"
+		<style>
+			<style>
+				* {box-sizing: border-box;}
+				body {font-family: Verdana, sans-serif;}
+				.mySlides {display: none;}
+				img {vertical-align: middle;}
+				
+				/* Slideshow container */
+				.slideshow-container {
+				  max-width: 700px;
+				  position: relative;
+				  margin: auto;
+				  background-color: aqua;
+				}
+				
+				/* Caption text */
+				.text {
+				  color: #f2f2f2;
+				  font-size: 15px;
+				  padding: 8px 12px;
+				  position: absolute;
+				  bottom: 8px;
+				  width: 100%;
+				  text-align: center;
+				}
+				
+				/* Number text (1/3 etc) */
+				.numbertext {
+				  color: #ffffff;
+				  font-size: 15px;
+				  padding: 8px 12px;
+				  position: absolute;
+				  top: 0;
+				  opacity: 0;
+				}
+				
+				/* The dots/bullets/indicators */
+				.dot {
+				  height: 15px;
+				  width: 15px;
+				  margin: 0 2px;
+				  background-color: #bbb;
+				  border-radius: 50%;
+				  display: inline-block;
+				  transition: background-color 0.6s ease;
+				}
+				
+				.active {
+				  background-color: #ff0000;
+				}
+				
+				/* Fading animation */
+				.fade {
+				  animation-name: fade;
+				  animation-duration: 1s;
+				}
+				
+				@keyframes fade {
+				  from {opacity: .7} 
+				  to {opacity: 1}
+				}
+				
+				/* On smaller screens, decrease text size */
+				@media only screen and (max-width: 300px) {
+				  .text {font-size: 11px}
+				}
+
+				
+			
+		</style>
+		
+		
+
+</head>
+
+<body>
+
+
+
+
+	
+
+	
+<b>
+	
+
+	<h1 style="color:rgb(251, 251, 251)">Co-effecient work</h1>
+	
+	<h2 style="color: rgb(255, 255, 255); font-size: 60px">NICOLAES COMAPNY</h2>
+</b>
+<br>
+<br>
+<br>
+
+<div class="container1"></div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="container6">
+
+
+	
+
+	<div class="container">
+	<div class="div div1"></div>
+	<div class="div div2"></div>
+	<div class="div div3"></div>
+	<div class="div div4"></div>
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+
+	
+
+<br>
+	
+	<div class="slideshow-container" style="text-align:center;"> 
+		
+		
+	
+	<div class="mySlides fade">
+	  <div class="numbertext">1 / 5</div>
+	  <img src="Picture/HK14.jpeg" style="width:300px"
+	  height="618px">
+	  <div class="text">1</div>
+		  
+	</div>
+	
+	<div class="mySlides fade">
+	  <div class="numbertext">2 / 5</div>
+	  <img src="Picture/ddd.jpeg" style="width:473px"
+	  height="620px">
+	  <div class="text">2</div>
+	</div>
+	
+	<div class="mySlides fade">
+	  <div class="numbertext">3 / 5</div>
+	  <img src="Picture/HK13.jpeg"
+	   style="width:300px" height="620">
+	  <div class="text">3</div>
+	</div>
+	
+	<div class="mySlides fade">
+	  <div class="numbertext">4 / 5</div>
+	  <img src="Picture/HKs8r5g.jpeg" style="width:700px"
+	  height="620">
+	  <div class="text">4</div>
+	</div>
+	
+	<div class="mySlides fade">
+	  <div class="numbertext">5 / 5</div>
+	  <img src="Picture/HK4.jpeg" style="width:700px"
+	  height="620px">
+	  <div class="text">5</div>
+	</div>
+	
+	
+	<div style="text-align:center">
+		<span class="dot"></span> 
+		<span class="dot"></span> 
+		<span class="dot"></span> 
+		<span class="dot"></span> 
+		<span class="dot"></span> 
+	  </div>
+	
+	  <figure>
+		
+	
+		<figcaption>
+		
+		
+		</figcaption>
+		
+		</figure>
+	
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</div>
+	
+	
+	
+	
+	
+
+	<figure>
+		
+	
+	<figcaption>
+	
+	
+	</figcaption>
+	
+	</figure>
+
+
+	
+	<br> <br> <br> <br> <br> <br> <br> <br>
+	
+	
+	
+<script>
+	let slideIndex = 0;
+	showSlides();
+	
+	function showSlides() {
+	  let i;
+	  let slides = document.getElementsByClassName("mySlides");
+	  let dots = document.getElementsByClassName("dot");
+	  for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";  
+	  }
+	  slideIndex++;
+	  if (slideIndex > slides.length) {slideIndex = 1}    
+	  for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";  
+	  dots[slideIndex-1].className += " active";
+	  setTimeout(showSlides, 1500); // Change image every 2 seconds
+	}
+
+	
+	</script>
+			
+		
+
+	
+	
+	
+		</div>
+	
+			<scripts>
+			
+	
+	
+				
+
+				<div class="container0">
+	
+	
+
+
+
+				
+
+
+				
+				 <img src="Picture/HK-3.jpeg" style="float: left; margin-top: 10px; margin-left: 3px; width: 350px;" height="480">
+				 <img src="Picture/HK-1.jpeg" style="float: left; margin-top: 10px; margin-left: 10px; width: 400px;" height="480">
+				 <img src="Picture/HK2.jpeg" style="float: left; margin-top: 10px; margin-left: 10px; width: 350px;" height="480">
+				 <img src="Picture/HK3.jpeg" style="float: left; margin-top: 10px; margin-left: 10px; width: 400px;" height="480">
+
+				 
+					
+				
+				
+
+				<b><i><text style="float: right; margin-top: 100px;margin-right: 450px; color: rgb(200, 200, 200); font-size: 40px; ">WHAT WE DO </text></i></b>
+				<img src="Picture/HK-2.jpeg" style="float: left; margin-top: 100px; margin-left: 200px; width: 350px;" height="300">
+				
+				
+		
+				</div>
+				
+
+
+				
+
+
+
+			
+
+
+			
+			<h6 style="float: left; margin-left: 650px; font-size: 20px; color: #ffffff; font-variant: small-caps;">&bull;
+				RE-build and Repair. (tiles, walls, fitting tiles, fitting marble and 
+				building) 
+
+
+			</h6>
+		
+
+	
+			</scripts>	
+
+			
+	
+			<div class="slide-container swiper">
+				<div class="slide-content">
+					<div class="card-wrapper swiper-wrapper">
+						<div class="card swiper-slide">
+							<div class="image-content">
+								<span class="overlay"></span>
+
+								<div class="card-image">
+									<img src="Picture/HK--1.webp" alt="" class="card-img">
+									<h1>1</h1>
+								</div>
+
+							</div>
+
+							<div class="card-content">
+								<h5 class="name" style="font-size: 70px;"> ROXANA MADALINA</h5>
+								<p class="description" style="font-size: 30px;"> "...And with over 20 years of work experience"</p>
+
+
+								<button class="button">View MORE</button>
+
+
+							</div>
+
+						</div>
+						<div class="card swiper-slide">
+							<div class="image-content">
+								<span class="overlay"></span>
+
+								<div class="card-image">
+									<img src="Picture/HK--1.webp" alt="" class="card-img">
+									<h1>2</h1>
+								</div>
+
+							</div>
+
+							<div class="card-content">
+								<h5 class="name" style="font-size: 70px;"> VALY NORTH</h5>
+								<p class="description" style="font-size: 35px;"> "I am an investor, with no regrets"</p>
+
+
+								<button class="button">View MORE</button>
+
+
+							</div>
+
+						</div>
+						<div class="card swiper-slide">
+							<div class="image-content">
+								<span class="overlay"></span>
+
+								<div class="card-image">
+									<img src="Picture/HK--1.webp" alt="" class="card-img">
+									<h1>3</h1>
+								</div>
+
+							</div>
+
+							<div class="card-content">
+								<h5 class="name" style="font-size: 70px;"> EMANUEL MAN</h5>
+								<p class="description" style="font-size: 30px;">"Some professenials, right? Nobody better"</p>
+
+
+								<button class="button">View MORE</button>
+
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+
+		
+
+
+
+
+
+
+
+
+
+<div class="container7">
+<text style="margin-left: 30px; color: white; font-size: 60px;">CONTACT US </text>
+<br><br>
+<text style="margin-left: 30px; color: white; font-size: 60px;"> all throughout london</text>
+<br> <br> <br> 
+<text  style="margin-left: 30px;color: white; font-size: 35px;"> 07548 062553 </text>
+<br> <br>
+<br> 
+<text class="NIC" style="color: white; font-size: 30px;">NicolaeCompany121254@gmail.com</text>
+<br><br><br><br>
+<text style="font-size: 30px; color: white; margin-left: 50px; ">GET IN TOUCH:</text>
+<br><br>
+<a  style="color: rgb(0, 0, 0);font-size: 35px;"class="IG" href="https://www.instagram.com/nicolaescompany3/" target="_blank">OUR SOCIALS</a>
+
+</div>
+
+
+
+			
+
+
+
+
+
+
+
+</body>
+
+<!--Swiper JS -->
+<script src="js/swiper-bundle.min.js"></script>
+
+<!--JAVA script-->
+<script src="js/js.js"></script>
+
+</html>
